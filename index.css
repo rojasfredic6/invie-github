@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  border: 10px solid #192b36;
+
 }
 
 img{
@@ -10,11 +10,17 @@ img{
 }
 
 @media screen and (max-width: 786px){
+  body{
+    border: 10px solid #192b36;
+  }
   #newversion{
     display: none;
   }
 }
 @media screen and (min-width: 786px){
+  body{
+    border: 10px solid #116607;
+  }
   #responsive{
     display: none;
   }
